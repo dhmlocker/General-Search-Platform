@@ -21,14 +21,4 @@
 *   **描述：** 采用门面模式（Facade Pattern）、适配器模式（Adapter Pattern）和注册器模式（Registrar Pattern）设计，提供标准化的数据接口和多种数据接入方式。支持通过 HTTP Client 直接请求、JSoup 网页解析或无头浏览器抓取多种类型的数据源。
 *   **特点：** 方便企业其他业务系统将数据快速接入平台，降低新搜索功能开发成本，提高系统可扩展性。
 
-### 4. 实时数据同步与一致性 (Real-time Data Synchronization & Consistency)
-
-*   **描述：** 实现源数据（如MySQL）与搜索索引（Elasticsearch）之间的数据实时同步，确保搜索结果的及时性和准确性。支持多种数据同步策略，包括定时任务增量同步、数据库双写机制、Logstash 数据管道以及 Canal 监听 MySQL Binlog 实时同步。
-*   **特点：** 保证搜索结果与最新业务数据保持一致，提高数据鲜度。
-
-### 5. 性能监控与稳定性保障 (Performance Monitoring & Stability Assurance)
-
-*   **描述：** 对搜索接口进行压力测试（使用JMeter），并通过Kibana搭建可视化看板实时监控系统性能指标。在前端应用防抖（Debounce）和节流（Throttle）优化用户体验，后端采用Guava Retrying重试机制保障第三方接口调用的稳定性。
-*   **特点：** 确保系统在高并发下依然稳定运行，提供流畅的用户体验。
-
 ---

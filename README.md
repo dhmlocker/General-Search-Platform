@@ -19,3 +19,11 @@
 ### 5. 性能监控与稳定性保障 (Performance Monitoring & Stability Assurance)
 *   **描述：** 对搜索接口进行压力测试（使用JMeter），并通过Kibana搭建可视化看板实时监控系统性能指标。在前端应用防抖（Debounce）和节流（Throttle）优化用户体验，后端采用Guava Retrying重试机制保障第三方接口调用的稳定性。
 *   **特点：** 确保系统在高并发下依然稳定运行，提供流畅的用户体验。
+## 技术栈信息
+
+*   **后端：** Spring Boot 2.7 (Java 17, Maven) - 用于构建RESTful API
+*   **前端：** Vue 3 (Composition API), Ant Design Vue (组件库), Lodash (工具库) - 用于构建用户界面
+*   **数据库：** MySQL 8.x - 存储业务数据
+*   **搜索引擎：** Elasticsearch 7.17.x - 提供高性能、可扩展的搜索服务
+*   **数据同步：** Logstash, Canal - 实现MySQL到Elasticsearch的数据同步
+*   **开发辅助：** Git, GitHub, Knife4j/Swagger - 版本控制与API文档生成

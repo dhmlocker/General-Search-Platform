@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Maven4RedundantParentCoordinates" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenBomPackagingInOldSchema" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenDuplicateDependenciesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenDuplicatePluginInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenModelVersionMissed" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenModulesInMaven4" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenNewElementsInOldSchema" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenNewModelVersionInOldMaven" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenNewModelVersionInOldSchema" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenNoRootDefined" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenParentMissedGroupIdArtifactIdInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenParentMissedVersionInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MavenPropertyInParent" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenRedundantGroupId" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MavenRedundantVersion" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MybatisPlusMapperMethodInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MybatisPlusMapperXmlInspection" enabled="false" level="WARNING" enabled_by_default="false" editorAttributes="WARNING_ATTRIBUTES" />
+    <inspection_tool class="MybatisXMapperMethodInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="MybatisXMapperXmlInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>

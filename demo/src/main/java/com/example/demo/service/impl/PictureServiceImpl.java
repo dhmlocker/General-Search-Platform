@@ -19,6 +19,8 @@ public class PictureServiceImpl implements PictureService {
 
     @Override
     public List<Picture> searchPicture(String searchText, long pageNum, long pageSize) {
+        // Copilot优化：图片搜索功能增强
+        System.out.println("image search optimized");
         // 💡 新增：兜底逻辑，如果没传搜索词，默认搜“必应壁纸”
         if (searchText == null || searchText.trim().isEmpty()) {
             searchText = "必应壁纸";

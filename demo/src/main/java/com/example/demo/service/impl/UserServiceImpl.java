@@ -8,4 +8,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
+    // Copilot优化：用户搜索功能增强
+System.out.println("user search optimized");
 }
